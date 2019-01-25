@@ -35,4 +35,5 @@ class Song
         tmp[genre] = 1
       end
     end
+    tmp
 end

@@ -31,6 +31,8 @@ class Song
     @@genres.each do |genre|
       if tmp.has_key?(genre)
         tmp[genre] += 1
-      tmp[genre] = 1
+      else
+        tmp[genre] = 1
+      end
     end
 end
